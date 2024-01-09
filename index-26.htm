@@ -1,0 +1,503 @@
+﻿ 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VVD sagataves</title>
+<link href="npm/bootstrap%405.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="css/tabulator.css" rel="stylesheet">
+<script type="text/javascript" src="js/tabulator.js"></script>
+<link href="css/style.css?v=202212141724" rel="stylesheet">
+<script src="npm/%40popperjs/core%402.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="npm/bootstrap%405.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="npm/select2%404.0.13/dist/js/select2.full.min.js"></script>
+<script src="tiny-mce/tinymce.min.js" referrerpolicy="origin"></script>
+<script type="text/javascript" src="sheetjs/xlsx.full.min.js"></script>
+</head>
+<body>
+<div class="menu">
+<div class="logo">
+<a href="index.htm">
+<img src="images/logo.png">
+</a>
+</div>
+<ul class="mainmenu">
+<li>
+<a href="#">
+<i class="fa-solid fa-file-signature"></i>
+Iesniegumi </a>
+<ul class="submenu">
+<li>
+<a href="#">
+Atkritumu atļauja </a>
+</li>
+<li>
+<a href="#">
+A un B kategorijas piesārņojošo darbību atļauja </a>
+</li>
+<li>
+<a href="#">
+C kategorijas piesārņojošo darbību reģistrācija/atcelšana </a>
+</li>
+<li>
+<a href="#">
+Siltumnīcefekta gāzu emisijas atļauja </a>
+</li>
+<li>
+<a href="#">
+Tehniskie noteikumu izsniegšana, grozījumi, anulēšana </a>
+</li>
+<li>
+<a href="#">
+Licenču darbībām ar aukstuma aģentiem saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Ūdens resursu lietošanas atļaujas saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Melno un krāsaino metālu licenču saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Paaugstināta organisko šķīdinātāju saturušu produktu tirdzniecības licence </a>
+</li>
+<li>
+<a href="#">
+Atkritumu tirgotāju un atkritumu apsaimniekošanas starpnieku reģistrācija </a>
+</li>
+<li>
+<a href="#">
+Ietekmes uz vidi sākotnējais izvērtējums </a>
+</li>
+<li>
+<a href="#">
+Izlietotā iepakojuma un vienreiz lietojamo galda trauku un piederumu apsaimniekošanas sistēma </a>
+</li>
+<li>
+<a href="#">
+Videi kaitīgu preču atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Elektrisko un elektronisko iekārtu atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Nolietotu transportlīdzekļu sistēma </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-award"></i>
+Atļaujas </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-table-list"></i>
+Reģistri </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-list-check"></i>
+Pārskati </a>
+<ul class="submenu">
+<li>
+<a href="#">
+RAS - IP pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - VKP pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - EEI pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - NTL pārskats </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-file-invoice"></i>
+Licences </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-table-cells"></i>
+Klasifikatori </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-check-to-slot"></i>
+Kontrole </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-user-group"></i>
+Klienti </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-euro-sign"></i>
+Maksājumi </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-folder-open"></i>
+Dokumenti </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-file-circle-check"></i>
+Atskaites </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-gear"></i>
+Uzstādījumi </a>
+</li>
+</ul>
+<div class="collapse-menu">
+<i class="fa-solid fa-circle-chevron-left"></i> Sakļaut</div>
+</div>
+<div class="wrapper">
+<div class="header d-flex align-items-center">
+<div class="me-auto d-flex  align-items-center">
+<h1>KLIENTU VADĪBAS UN UZRAUDZĪBAS SISTĒMA</h1>
+</div>
+<div class="right-menu  d-flex">
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Meklēt"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Sarakste"><i class="fa-solid fa-comment"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-target="#palidziba" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Palīdzība" data-toggle="modal" data-target="#palidziba"><i class="fa-solid fa-circle-question"></i></a></div>
+<div class="dropdown">
+<button class="btn btn-primary-outline dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="fa-solid fa-user"></i>
+Jānis Bērziņš
+</button>
+<ul class="dropdown-menu dropdown-menu-end">
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i> Profils</a></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-building-user"></i> Mani uzņēmumi</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Iziet</a></li>
+</ul>
+</div>
+</div>
+</div>
+<ul class="tab-list d-flex flex-wrap">
+<li>
+<a href="index-24.htm?s=b&p=atkritumu-atlaujas-iesniegums"><i class="fa-solid fa-file-signature"></i> Atkritumu atļaujas iesniegums<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li>
+<a href="index-25.htm?s=b&p=kontroles-zinojums"><i class="fa-solid fa-check-to-slot"></i> Kontroles ziņojums<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li class="active">
+<a href="index-26.htm?s=b&p=ras-parskats"><i class="fa-solid fa-list-check"></i> RAS - IP pārskats, #123<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li class="close-all">
+<a href="index-26.htm?s=b&p=ras-parskats"><i class="fa-solid fa-xmark close"></i></a>
+</li>
+</ul>
+<hr>
+<div class="tools">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-primary">
+Saglabāt</button>
+</div>
+</div>
+</div>
+<div class="card mt-3 mb-3">
+<div class="card-body pt-1">
+<div class="row">
+<div class="col-md-2">
+<div class="form-element disabled">
+<label for="">DRN IP #ID</label> <div>123</div>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element disabled">
+<label for="">Pārskata periods</label> <div>01.01.2022 - 30.06.2022 <span class="badge rounded-pill text-bg-dark" data-bs-toggle="tooltip" data-bs-title="Samazinātās prasības">s</span></div>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element disabled">
+<label for="">Pārskata sagatavošanas datums</label> <div>01.07.2022</div>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element disabled">
+<label for="">Pārskata iesniegšanas datums</label> <div>01.07.2022</div>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element">
+<label for="">Statuss</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Statuss 1</option>
+<option value="a">Statuss 2</option>
+<option value="b">Statuss N</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<h3>Operators</h3>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Nosaukums</label> <div>EKO OSTA, SIA</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Iesniegtais finanšu nodrošinājums (EUR)</label> <div>50000</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion accordion-flush" id="accordion-ras-parskats">
+<div class="accordion-item">
+<h2 class="accordion-header" id="finansu-nodrosinajuma-dokumenti">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-finansu-nodrosinajuma-dokumenti" aria-expanded="false" aria-controls="id-finansu-nodrosinajuma-dokumenti">
+Finanšu nodrošinājuma dokumenti
+</button>
+</h2>
+<div id="id-finansu-nodrosinajuma-dokumenti" class="accordion-collapse collapse " aria-labelledby="heading-finansu-nodrosinajuma-dokumenti">
+<div class="accordion-body">
+<div id="finansu-nodrosinajuma-dokumenti-table"></div>
+<script src="table-data/finansu-nodrosinajuma-dokumenti.js?v=202209280700"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="dnr">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-dnr" aria-expanded="false" aria-controls="id-dnr">
+DRN
+</button>
+</h2>
+<div id="id-dnr" class="accordion-collapse collapse " aria-labelledby="heading-dnr">
+<div class="accordion-body">
+<div id="dnr-table"></div>
+<script src="table-data/dnr.js?v=202209280630"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="maisini">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-maisini" aria-expanded="false" aria-controls="id-maisini">
+Maisiņi
+</button>
+</h2>
+<div id="id-maisini" class="accordion-collapse collapse " aria-labelledby="heading-maisini">
+<div class="accordion-body">
+<div id="maisini-table"></div>
+<script src="table-data/maisini.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="datis">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-datis" aria-expanded="false" aria-controls="id-datis">
+Dati-S
+</button>
+</h2>
+<div id="id-datis" class="accordion-collapse collapse " aria-labelledby="heading-datis">
+<div class="accordion-body">
+<div id="datis-table"></div>
+<script src="table-data/datis.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="datir">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-datir" aria-expanded="false" aria-controls="id-datir">
+Dati-R
+</button>
+</h2>
+<div id="id-datir" class="accordion-collapse collapse " aria-labelledby="heading-datir">
+<div class="accordion-body">
+<div id="datir-table"></div>
+<script src="table-data/datir.js?v=202209151728"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="annex">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-annex" aria-expanded="false" aria-controls="id-annex">
+Annex
+</button>
+</h2>
+<div id="id-annex" class="accordion-collapse collapse " aria-labelledby="heading-annex">
+<div class="accordion-body">
+<div id="annex-table"></div>
+<script src="table-data/annex.js?v=202209151657"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="komunikacija">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-komunikacija" aria-expanded="false" aria-controls="id-komunikacija">
+Komunikācija
+</button>
+</h2>
+<div id="id-komunikacija" class="accordion-collapse collapse " aria-labelledby="heading-komunikacija">
+<div class="accordion-body">
+<div id="komunikacija-table"></div>
+<script src="table-data/komunikacija.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkartoti-lietots">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkartoti-lietots" aria-expanded="false" aria-controls="id-atkartoti-lietots">
+Atkārtoti lietots
+</button>
+</h2>
+<div id="id-atkartoti-lietots" class="accordion-collapse collapse " aria-labelledby="heading-atkartoti-lietots">
+<div class="accordion-body">
+<div id="atkartoti-lietots-table"></div>
+<script src="table-data/atkartoti-lietots.js?v=202209151657"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkartoti-lietojamais-iepakojums">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkartoti-lietojamais-iepakojums" aria-expanded="false" aria-controls="id-atkartoti-lietojamais-iepakojums">
+Atkārtoti lietojamais iepakojums atskaites periodā
+</button>
+</h2>
+<div id="id-atkartoti-lietojamais-iepakojums" class="accordion-collapse collapse " aria-labelledby="heading-atkartoti-lietojamais-iepakojums">
+<div class="accordion-body">
+<div id="atkartoti-lietojamais-iepakojums-table"></div>
+<script src="table-data/atkartoti-lietojamais-iepakojums.js?v=202209151657"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkartoti-lietots-piezimes">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkartoti-lietots-piezimes" aria-expanded="false" aria-controls="id-atkartoti-lietots-piezimes">
+Atkārtoti lietots piezīmes
+</button>
+</h2>
+<div id="id-atkartoti-lietots-piezimes" class="accordion-collapse collapse " aria-labelledby="heading-atkartoti-lietots-piezimes">
+<div class="accordion-body">
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name=""></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="finansu-plana-izpilde">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-finansu-plana-izpilde" aria-expanded="false" aria-controls="id-finansu-plana-izpilde">
+Finanšu plāna izpilde
+</button>
+</h2>
+<div id="id-finansu-plana-izpilde" class="accordion-collapse collapse " aria-labelledby="heading-finansu-plana-izpilde">
+<div class="accordion-body">
+<div id="finansu-plana-izpilde-table"></div>
+<script src="table-data/finansu-plana-izpilde.js?v=202209161501"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="papildinformacija">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-papildinformacija" aria-expanded="false" aria-controls="id-papildinformacija">
+Papildinformācija
+</button>
+</h2>
+<div id="id-papildinformacija" class="accordion-collapse collapse " aria-labelledby="heading-papildinformacija">
+<div class="accordion-body">
+<div id="papildinformacija-table"></div>
+<script src="table-data/papildinformacija.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="kopsavilkums">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-kopsavilkums" aria-expanded="false" aria-controls="id-kopsavilkums">
+Kopsavilkums
+</button>
+</h2>
+<div id="id-kopsavilkums" class="accordion-collapse collapse " aria-labelledby="heading-kopsavilkums">
+<div class="accordion-body">
+<div id="kopsavilkums-table"></div>
+<script src="table-data/kopsavilkums.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="auditora-atzinums">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-auditora-atzinums" aria-expanded="false" aria-controls="id-auditora-atzinums">
+Auditora atzinums
+</button>
+</h2>
+<div id="id-auditora-atzinums" class="accordion-collapse collapse " aria-labelledby="heading-auditora-atzinums">
+<div class="accordion-body">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo quam eget tempor malesuada. Integer tristique justo velit, vel iaculis elit accumsan placerat. Quisque auctor at leo in suscipit. Vestibulum eros tortor, tempor sit amet pharetra tincidunt, sollicitudin nec purus. Sed mi magna, commodo ac consequat et, mattis nec nunc. Ut id aliquam ex, sit amet sodales augue. Integer posuere fermentum ex. Suspendisse at dolor nec neque viverra gravida.
+</p><p>
+Mauris sit amet nibh ante. In rutrum diam mi, ut viverra nisl eleifend at. Suspendisse suscipit mauris non rhoncus lacinia. Vestibulum interdum a enim vitae sodales. Phasellus venenatis neque massa, quis pretium eros commodo vel. Maecenas suscipit suscipit convallis. Quisque elementum, diam sed accumsan posuere, risus felis lacinia enim, sit amet cursus odio velit posuere felis. Etiam eu aliquam justo.
+</p><p>
+Etiam porta felis id condimentum cursus. Etiam tincidunt nisi sit amet diam mattis, a porta lectus vestibulum. In nec porttitor urna, quis ultrices justo. Curabitur bibendum gravida diam eu pellentesque. Proin ut erat in ligula ornare venenatis. Nam consectetur eget enim a dignissim. Fusce ipsum risus, bibendum in justo nec, ornare rutrum arcu. Nunc in interdum est. Nam scelerisque eu nulla vitae bibendum. Pellentesque vulputate tempor metus, sed aliquet sapien porta eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec mollis sagittis gravida.
+</p>
+<div id="dokumenti-saraksts-table"></div>
+<script src="table-data/dokumenti-saraksts.js?v=202209291352"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="kopejais-eksperta-novertejums">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-kopejais-eksperta-novertejums" aria-expanded="false" aria-controls="id-kopejais-eksperta-novertejums">
+Kopējais eksperta novērtējums
+</button>
+</h2>
+<div id="id-kopejais-eksperta-novertejums" class="accordion-collapse collapse " aria-labelledby="heading-kopejais-eksperta-novertejums">
+<div class="accordion-body">
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name=""></textarea>
+</div>
+<button type="button" class="" id="abc">
+<label for="file_abc">
+</label>
+<input type="file" id="file_abc" style="display:none;">
+</button>
+<hr>
+<div id="dokumenti-table"></div>
+<script src="table-data/dokumenti.js?v=202209291354"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+Valsts Vides Dienests, 2022<br>
+Tālrunis: <a href="tel:+37167084200">+371 67084200</a>, E-pasts: <a href="cdn-cgi/l/email-protection.html#4d2c392f2c213e393e0d3b3b29632a223b63213b"><span class="__cf_email__" data-cfemail="a8c9dccac9c4dbdcdbe8dedecc86cfc7de86c4de">[email&#160;protected]</span></a>
+</div>
+<div class="modal palidziba  fade right" tabindex="-1" id="palidziba">
+<div class="modal-dialog modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Palīdzība</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<h2>Iesniegums atkritumu atļaujas saņemšanai</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum cursus nulla, quis pulvinar libero dignissim et. Nulla facilisi. Integer nisl mi, molestie a ipsum ut, interdum consequat nibh. Maecenas lobortis massa sit amet velit feugiat, eget posuere tortor scelerisque. Maecenas ornare lobortis ligula at dapibus. Aliquam nisl nisl, malesuada ac mattis ut, facilisis placerat turpis. Cras leo felis, facilisis eget viverra ac, hendrerit eu felis. Vivamus a erat ullamcorper, luctus mi sit amet, sollicitudin dolor. Suspendisse porta cursus nisl eu pretium. Praesent sit amet ipsum magna.</p>
+<h3>Palīdzības video</h3>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/scripts.js?v=202210121758"></script>
+</body>
+</html>

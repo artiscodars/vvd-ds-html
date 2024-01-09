@@ -1,0 +1,404 @@
+Uri: https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\npm\@popperjs\core@2.11.5\dist\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\npm\bootstrap@5.2.0\dist\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\npm\bootstrap@5.2.0\dist\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\npm\select2@4.0.13\dist\js\select2.full.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.6.0.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOkCnqEu92Fr1MmgWxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOlCnqEu92Fr1MmSU5vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOlCnqEu92Fr1MmYUtvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\s\roboto\v30\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://oss.sheetjs.com/sheetjs/xlsx.full.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\sheetjs\xlsx.full.min.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/?s=b&p=atkritumu-atlaujas-iesniegums
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-24.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=b&p=kontroles-zinojums
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-25.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=b&p=ras-parskats
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-26.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=akordeoni
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-7.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=birkas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-8.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=datu-ievades-laukums
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-9.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=formas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-10.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=ievads
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=ikonas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-5.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=info-lodzini
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-12.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=izcelts-teksts
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-14.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=izkartojums
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-2.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=izlecosie-pazinojumi
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-13.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=komponentes
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-6.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=krasas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-3.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=mapes
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-15.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=modalie-logi
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-11.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=navigacijas-cels
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-16.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=padomu-riki
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-18.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=pazinojumi
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-17.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=piemeri
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-23.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=pogas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-19.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=progresa-indikatori
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-20.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=saraksti
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-21.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=tabulas
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-22.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=teksti
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-4.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=d&p=visparigi
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-1.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=p&p=atkritumu-atlaujas-iesniegums-pub
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-28.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=p&p=c-iesniegums
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-29.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/?s=p&p=klientu-portals
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\index-27.htm
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/browser-bar.png?1376755637
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\browser-bar.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-browser.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-browser.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-cloud.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-cloud.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-error.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-error.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-horizontal-arrow.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-horizontal-arrow.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-ok.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-ok.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-icon-server.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-icon-server.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-no-screenshot-error.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-no-screenshot-error.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/cf-no-screenshot-warn.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\cf-no-screenshot-warn.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/images/icon-exclamation.png?1376755637
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\images\icon-exclamation.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/l/email-protection
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\l\email-protection.html
+Content Type: text/html
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/cdn-cgi/styles/cf.errors.css
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\cdn-cgi\styles\cf.errors.css
+Content Type: text/css
+
+Uri: https://vvd-ds.igstudija.lv/css/style.css?v=202212141724
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\css\style.css
+Content Type: text/css
+
+Uri: https://vvd-ds.igstudija.lv/css/tabulator.css
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\css\tabulator.css
+Content Type: text/css
+
+Uri: https://vvd-ds.igstudija.lv/fontawesome/svgs/solid/list.svg
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\fontawesome\svgs\solid\list.svg
+Content Type: image/svg+xml
+
+Uri: https://vvd-ds.igstudija.lv/fontawesome/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\fontawesome\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://vvd-ds.igstudija.lv/fontawesome/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\fontawesome\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://vvd-ds.igstudija.lv/fontawesome/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\fontawesome\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://vvd-ds.igstudija.lv/fontawesome/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\fontawesome\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://vvd-ds.igstudija.lv/images/logo.png
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\images\logo.png
+Content Type: image/png
+
+Uri: https://vvd-ds.igstudija.lv/js/scripts.js?v=202210121758
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\js\scripts.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/js/tabulator.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\js\tabulator.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/annex.js?v=202209151657
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\annex.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/apmaksas-informacija.js?v=202209151657
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\apmaksas-informacija.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkartoti-lietojamais-iepakojums.js?v=202209151657
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkartoti-lietojamais-iepakojums.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkartoti-lietots.js?v=202209151657
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkartoti-lietots.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkritumu-parkrausana.js?v=202209151519
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkritumu-parkrausana.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkritumu-parvadasana.js?v=202209280758
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkritumu-parvadasana.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkritumu-savaksana.js?v=202209280720
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkritumu-savaksana.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkritumu-skirosana.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkritumu-skirosana.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/atkritumu-uzglabasana.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\atkritumu-uzglabasana.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/datir.js?v=202209151728
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\datir.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/datis.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\datis.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/dnr.js?v=202209280630
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\dnr.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/dokumenti-saraksts.js?v=202209291352
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\dokumenti-saraksts.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/dokumenti.js?v=202209291354
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\dokumenti.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/finansu-nodrosinajuma-dokumenti.js?v=202209280700
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\finansu-nodrosinajuma-dokumenti.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/finansu-plana-izpilde.js?v=202209161501
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\finansu-plana-izpilde.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/info-par-degv-staciju.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\info-par-degv-staciju.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/kokapstrade-modulis.js?v=202209291334
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\kokapstrade-modulis.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/komunikacija.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\komunikacija.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/kopsavilkums.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\kopsavilkums.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/lauksaimnieku-modulis.js?v=202209291351
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\lauksaimnieku-modulis.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/maisini.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\maisini.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/operatora-parstavji.js?v=202209291251
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\operatora-parstavji.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/papildinformacija.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\papildinformacija.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/parbaude-piedalijas.js?v=202209151658
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\parbaude-piedalijas.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/parbaudes-jomas.js?v=202209151659
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\parbaudes-jomas.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/parbaudes-veiceji.js?v=202209151659
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\parbaudes-veiceji.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/sakums-atlaujas-co.js?v=202209291652
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\sakums-atlaujas-co.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/sakums-iesniegumi-co.js?v=202209291629
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\sakums-iesniegumi-co.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/sakums-parskati-co.js?v=202209291628
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\sakums-parskati-co.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/tehniskie-lidzekli.js?v=202209151659
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\tehniskie-lidzekli.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/versijas.js?v=202209151659
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\versijas.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/zinojuma-aprites-vesture.js?v=202209151659
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\zinojuma-aprites-vesture.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/table-data/zinojumi.js?v=202210131042
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\table-data\zinojumi.js
+Content Type: application/javascript
+
+Uri: https://vvd-ds.igstudija.lv/tiny-mce/tinymce.min.js
+File Name: C:\Downloaded Web Sites\vvd-ds.igstudija.lv\tiny-mce\tinymce.min.js
+Content Type: application/javascript
+

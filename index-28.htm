@@ -1,0 +1,855 @@
+﻿ 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VVD sagataves</title>
+<link href="npm/bootstrap%405.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="css/tabulator.css" rel="stylesheet">
+<script type="text/javascript" src="js/tabulator.js"></script>
+<link href="css/style.css?v=202212141724" rel="stylesheet">
+<script src="npm/%40popperjs/core%402.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="npm/bootstrap%405.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="npm/select2%404.0.13/dist/js/select2.full.min.js"></script>
+<script src="tiny-mce/tinymce.min.js" referrerpolicy="origin"></script>
+<script type="text/javascript" src="sheetjs/xlsx.full.min.js"></script>
+</head>
+<body>
+<div class="menu">
+<div class="logo">
+<a href="index.htm">
+<img src="images/logo.png">
+</a>
+</div>
+<ul class="mainmenu">
+<li>
+<a href="index-27.htm?s=p&p=klientu-portals">
+<i class="fa-solid fa-home"></i>
+Uz sākumu </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-file-signature"></i>
+Pakalpojumi </a>
+<ul class="submenu">
+<li>
+<a href="#">
+Atkritumu atļauja </a>
+</li>
+<li>
+<a href="#">
+A un B kategorijas piesārņojošo darbību atļauja </a>
+</li>
+<li>
+<a href="#">
+C kategorijas piesārņojošo darbību reģistrācija/atcelšana </a>
+</li>
+<li>
+<a href="#">
+Siltumnīcefekta gāzu emisijas atļauja </a>
+</li>
+<li>
+<a href="#">
+Tehniskie noteikumu izsniegšana, grozījumi, anulēšana </a>
+</li>
+<li>
+<a href="#">
+Licenču darbībām ar aukstuma aģentiem saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Ūdens resursu lietošanas atļaujas saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Melno un krāsaino metālu licenču saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Paaugstināta organisko šķīdinātāju saturušu produktu tirdzniecības licence </a>
+</li>
+<li>
+<a href="#">
+Atkritumu tirgotāju un atkritumu apsaimniekošanas starpnieku reģistrācija </a>
+</li>
+<li>
+<a href="#">
+Ietekmes uz vidi sākotnējais izvērtējums </a>
+</li>
+<li>
+<a href="#">
+Izlietotā iepakojuma un vienreiz lietojamo galda trauku un piederumu apsaimniekošanas sistēma </a>
+</li>
+<li>
+<a href="#">
+Videi kaitīgu preču atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Elektrisko un elektronisko iekārtu atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Nolietotu transportlīdzekļu sistēma </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-award"></i>
+Manas atļaujas </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-folder-open"></i>
+Dokumenti </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-envelope"></i>
+Sarakste </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-euro-sign"></i>
+Maksājumi </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-circle-question"></i>
+Palīdzība </a>
+</li>
+</ul>
+<div class="collapse-menu">
+<i class="fa-solid fa-circle-chevron-left"></i> Sakļaut</div>
+</div>
+<div class="wrapper">
+<div class="header d-flex align-items-center">
+<div class="me-auto d-flex  align-items-center">
+<h1>VALSTS VIDES DIENESTA INFORMĀCIJAS SISTĒMA TULPE</h1>
+</div>
+<div class="right-menu  d-flex">
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Meklēt"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Sarakste"><i class="fa-solid fa-comment"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-target="#palidziba" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Palīdzība" data-toggle="modal" data-target="#palidziba"><i class="fa-solid fa-circle-question"></i></a></div>
+<div class="dropdown">
+<button class="btn btn-primary-outline dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="fa-solid fa-user"></i>
+Jānis Bērziņš
+</button>
+<ul class="dropdown-menu dropdown-menu-end">
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i> Profils</a></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-building-user"></i> Mani uzņēmumi</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Iziet</a></li>
+</ul>
+</div>
+</div>
+</div>
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="#">Sākums</a></li>
+<li class="breadcrumb-item"><a href="#">Pakalpojumi</a></li>
+<li class="breadcrumb-item"><a href="#">Iesniegumi atkritumu atļaujas saņemšanai</a></li>
+<li class="breadcrumb-item active" aria-current="page">Iesniegums atkritumu atļaujas saņemšanai </li>
+</ol>
+</nav>
+<h1>
+Iesniegums atkritumu atļaujas saņemšanai <span class="badge bg-secondary">2626</span></h1>
+<div class="tools">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-primary">
+<i class="fa-solid fa-check"></i>
+Saglabāt</button>
+</div>
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-primary">
+<i class="fa-solid fa-check-double"></i>
+Saglabāt & Iesniegt</button>
+</div>
+<div class="col-auto">
+<div class="dropdown">
+<button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+Darbības </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-print"></i>
+Drukāt </a>
+</li>
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-file-excel"></i>
+Eksportēt uz Excel </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col text-end">
+<button type="submit" id="" value="" class="btn btn-outline-danger">
+<i class="fa-solid fa-trash-can"></i>
+Dzēst</button>
+</div>
+</div>
+</div>
+<div class="card mt-3 mb-3">
+<div class="card-body pt-1">
+<div class="row">
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">AA#ID</label> <div>2626</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Izveidots</label> <div>12.12.2022</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Statuss</label> <div>Melnraksts</div>
+</div>
+</div>
+<div class="col-12">
+<div class="form-element">
+<label for="">Persona par kuru iesniedz</label>
+<div class="input-group">
+<input class="form-control datalist" list="_options" name="Persona par kuru iesniedz" id="exampleDataList" placeholder="Izvēlies">
+<datalist id="_options">
+<option data-value="m" value="AS BALTA">
+<option data-value="a" value="Baltijas apdrošināšanas nams">
+</option></datalist>
+<button class="btn btn-primary" type="button" id="button-addon2">Pievienot jaunu</button>
+</div>
+</div>
+</div>
+<div class="col-12">
+<h3>Iesnieguma informācija</h3>
+</div>
+<div class="col-md-3">
+<div class="form-element">
+<label for=""> Iesnieguma iesniegšanas iemesls</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Iesniegums jaunas atkritumu atļaujas saņemšanai</option>
+<option value="a">Iesniegums grozījumiem esošā atkritumu atļaujā</option>
+</select>
+</div>
+</div>
+<div class="col-md-5">
+<div class="form-element">
+<label for=""> Atkritumu apsaimniekošanas veids</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Atkritumu savākšanas, pārvadāšanas, pārkraušanas, šķirošanas, uzglabāšanas atļauja</option>
+<option value="a">Slēgtas vai rekultivētas atkritumu izgāztuves atrakšanas un tajā esošo atkritumu pāršķirošanas atļauja</option>
+</select>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element">
+<label for="">Atļauja laika posmam no</label>
+<input type="date" class="form-control" id="" name="" placeholder="">
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element">
+<label for="">Atļauja laika posmam līdz</label>
+<input type="date" class="form-control" id="" name="" placeholder="">
+</div>
+</div>
+<div class="col-12">
+<h4>Atkritumu apsaimniekošanas pieteiktās darbības</h4>
+</div>
+<div class="col-3">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="" checked="">
+<label class="form-check-label" for="">Atkritumu savākšanai</label>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="" checked="">
+<label class="form-check-label" for="">Atkritumu pārvadāšanai</label>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for="">Atkritumu pārkraušanai un uzglabāšanai</label>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for="">Atkritumu škirošanai un uzglabāšanai</label>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for="">Atkritumu uzglabāšanai</label>
+</div>
+</div>
+<div class="col-12">
+<h4>Atzīmes</h4>
+</div>
+<div class="col-md-12">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for="">Atzīme par reģistrāciju atkritumu pārvadājumu uzskaites sistēmā</label>
+</div>
+</div>
+<div class="col-12">
+<h3>Finanšu nodrošinājums</h3>
+</div>
+<div class="col-md-6">
+<div class="form-element">
+<label for="">Esošie nodrošinājumi</label>
+<div class="input-group">
+<input class="form-control datalist" list="_options" name="Esošie nodrošinājumi" id="exampleDataList" placeholder="Izvēlies">
+<datalist id="_options">
+<option data-value="m" value="01.01.2022 līdz 31.12.2022 | AS BALTA, 50 000 EUR">
+<option data-value="a" value="01.01.2023 līdz 31.12.2023 | Baltijas apdrošināšanas nams, 100 000 EUR">
+</option></datalist>
+<button class="btn btn-primary" type="button" id="button-addon2">Pievienot jaunu</button>
+</div>
+</div>
+</div>
+<div class="col-12">
+<h4>Plānotie pasākumi</h4>
+</div>
+<div class="col-md-12">
+<div class="form-element  ">
+<label for="">Plānotie pasākumi nodarbināto drošības un veselības aizsardzībā</label> <textarea class="form-control auto-resize " placeholder="" id="" name=""></textarea>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-element  ">
+<label for="">Darbinieku kvalifikācija un tās paaugstināšanas pasākumi</label> <textarea class="form-control auto-resize " placeholder="" id="" name=""></textarea>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion accordion-flush" id="accordion-atkritumu-atlaujas-iesniegums-pub">
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-savaksana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-savaksana" aria-expanded="false" aria-controls="id-atkritumu-savaksana">
+Savākšana
+</button>
+</h2>
+<div id="id-atkritumu-savaksana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-savaksana">
+<div class="accordion-body">
+<h3>Plānotais atkritumu savākšanas sistēmas veids (piemēram, dalītā atkritumu vākšana, atkritumu šķirošana, atkritumu vākšana no konteineriem, dalītās savākšanas punktos vai savākšanas laukumos) un tās apraksts </h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</textarea>
+</div>
+<h3>Atkritumu savākšanā izmantojamo specializēto transportlīdzekļu, iekārtu un inventāra apraksts, iekļaujot arī atkritumu konteineru aprakstu</h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</textarea>
+</div>
+<h3>Apraksts par tehniskajām iespējām veikt konteineru apkopi, tajā skaitā mazgāšanu un dezinficēšanu </h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name=""></textarea>
+</div>
+<h3>Sadzīves atkritumu dalītās savākšanas punktu, šķiroto atkritumu savākšanas laukumu, atsevišķu veidu bīstamo atkritumu vai ražošanas atkritumu savākšanas punktu, izlietotāiepakojuma pieņemšanas punktu un videi kaitīgo preču atkritumu savākšanas punktu adreses un apraksts, norādot to atbilstību normatīvajos aktos par atkritumu savākšanas vietu ierīkošanu un apsaimniekošanu izvirzītajām prasībām (katrai savākšanas vietai) </h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name=""></textarea>
+</div>
+<br>
+<h3>Plānotie savācamo bīstamo atkritumu veidi un apjoms kalendāra gadā</h3>
+(Norāda katrai savākšanas vietai atseviški atbilstoši normatīvajiem aktiem par atkritumu klasifikatoru un īpašībām, kas padara atkritumus bīstamus)
+<div class="pt-3 pb-2">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-sm  btn-primary" data-bs-toggle="modal" data-bs-target="#add_new">
+<i class="fa-solid fa-plus"></i>
+Pievienot vietu</button>
+</div>
+<div class="col-auto">
+<div class="dropdown">
+<button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+Darbības </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-check"></i>
+Atzīmēt, kā pārbaudītus </a>
+</li>
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-trash"></i>
+Dzēst </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<table class="table table-hover  table-bordered">
+<tr>
+<th width="60" class="<br />
+<b>Notice</b>:  Undefined variable: col in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>41</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type null in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>41</b><br />
+">
+</th>
+<th width="30" class="text-center">
+</th>
+<th width="50" class="text-center">
+</th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+" class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+">
+Vieta </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+" class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+">
+Adrese </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+" class="text-center">
+Atkritumu kods / nosaukums </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>48</b><br />
+" class="text-center">
+Apjoms gadā (t) </th>
+</tr>
+<tr>
+<td class="text-center">
+<button class="position-relative btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#nested-row-0" aria-expanded="false">
+<i class="fa-sharp fa-solid fa-caret-right"></i> </button>
+</td>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#dynamic_modal">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+Poligons </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+<a href="https://delfi.lv" target="_blank" class="" id="">
+Zemzariņi, Vecauces pag.</a> </td>
+<td class="text-center">
+7656 </td>
+<td class="text-center">
+1000 </td>
+</tr>
+<tr id="nested-row-0" class="collapse">
+<td colspan="6">
+<div class="">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#add_new">
+<i class="fa-solid fa-plus"></i>
+Pievienot līguma puses</button>
+</div>
+<div class="col-auto">
+<div class="dropdown">
+<button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+Darbības </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-check"></i>
+Atzīmēt, kā pārbaudītus </a>
+</li>
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-trash"></i>
+Dzēst </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="text-center">
+<button class="position-relative btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#nested-row-1" aria-expanded="false">
+<i class="fa-sharp fa-solid fa-caret-right"></i><span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-primary">2</span> </button>
+</td>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm" data-bs-toggle="modal" data-bs-target="#dynamic_modal">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+Poligons </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+<a href="https://delfi.lv" target="_blank" class="" id="">
+Zemzariņi, Vecauces pag.</a> </td>
+<td class="text-center">
+7656 </td>
+<td class="text-center">
+1000 </td>
+</tr>
+<tr id="nested-row-1" class="collapse">
+<td colspan="6">
+<div class="">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#add_new">
+<i class="fa-solid fa-plus"></i>
+Pievienot līguma puses</button>
+</div>
+<div class="col-auto">
+<div class="dropdown">
+<button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+Darbības </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-check"></i>
+Atzīmēt, kā pārbaudītus </a>
+</li>
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-trash"></i>
+Dzēst </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<table class="table table-hover  table-bordered mt-2">
+<tr>
+<th width="30" class="text-center">
+</th>
+<th width="50" class="text-center">
+</th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="text-center">
+Līguma numurs </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+">
+Līguma puses </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="text-center">
+Līguma termiņš </th>
+</tr>
+<tr>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="text-center">
+12345 </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>124</b><br />
+">
+<a href="https://delfi.lv" target="_blank" class="me-2" id="">
+SIA Eko Osta</a><a href="https://apollo.lv" target="_blank" class="" id="">
+SIA Apollo</a> </td>
+<td class="text-center">
+01.01.2022 - 31.12.2025 </td>
+</tr>
+<tr>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="text-center">
+12346 </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>124</b><br />
+">
+SIA Eko Osta, SIA Varens poligons </td>
+<td class="text-center">
+01.01.2022 - 31.12.2023 </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="text-center">
+<button class="position-relative btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#nested-row-2" aria-expanded="false">
+<i class="fa-sharp fa-solid fa-caret-right"></i><span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-primary">2</span> </button>
+</td>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+Poligons 2 </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>71</b><br />
+">
+Brankas, Vecauces pag. </td>
+<td class="text-center">
+7656 </td>
+<td class="text-center">
+100 </td>
+</tr>
+<tr id="nested-row-2" class="collapse">
+<td colspan="6">
+<div class="">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#add_new">
+<i class="fa-solid fa-plus"></i>
+Pievienot līguma puses</button>
+</div>
+<div class="col-auto">
+<div class="dropdown">
+<button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+Darbības </button>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-check"></i>
+Atzīmēt, kā pārbaudītus </a>
+</li>
+<li>
+<a class="dropdown-item" href="#">
+<i class="fa-solid fa-trash"></i>
+Dzēst </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<table class="table table-hover  table-bordered mt-2">
+<tr>
+<th width="30" class="text-center">
+</th>
+<th width="50" class="text-center">
+</th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="text-center">
+Līguma numurs </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+">
+Līguma puses </th>
+<th width="<br />
+<b>Notice</b>:  Undefined index: width in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>112</b><br />
+" class="text-center">
+Līguma termiņš </th>
+</tr>
+<tr>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="text-center">
+22345 </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>124</b><br />
+">
+SIA Eko Osta, SIA MARE MARE </td>
+<td class="text-center">
+01.01.2022 - 31.12.2025 </td>
+</tr>
+<tr>
+<td class="text-center">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="" name="">
+<label class="form-check-label" for=""></label>
+</div>
+</td>
+<td class="text-center">
+<button type="submit" id="" value="" class="btn btn-link btn-sm">
+<i class="fa-solid fa-pen"></i>
+</button>
+</td>
+<td class="text-center">
+32346 </td>
+<td class="<br />
+<b>Notice</b>:  Undefined index: class in <b>/var/www/vhosts/arta_saimnieciba/vvd-ds.igstudija.lv/templates/table-html.php</b> on line <b>124</b><br />
+">
+SIA Eko Osta, SIA Great moovers </td>
+<td class="text-center">
+01.01.2022 - 31.12.2025 </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-parvadasana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-parvadasana" aria-expanded="false" aria-controls="id-atkritumu-parvadasana">
+Pārvadāšana
+</button>
+</h2>
+<div id="id-atkritumu-parvadasana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-parvadasana">
+<div class="accordion-body">
+<h3>Ja tiek veikts pašpārvadājums – pašpārvadājuma sertifikāta numurs, derīguma termiņš, institūcija, kas to izdevusi (ja saskaņā ar normatīvajiem aktiem par autopārvadājumiem šāds sertifikāts ir nepieciešams)</h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</textarea>
+</div>
+<h3>Ja tiek veikts komercpārvadājums ar autotransporta līdzekli – dokuments, kas apliecina pārvadātāja pielaidi komercpārvadājumiem, numurs, derīguma termiņš un institūcija, kas to izdevusi</h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</textarea>
+</div>
+<h3>Ja atļauja nepieciešama bīstamo atkritumu pārvadāšanai - dokumenti, kas apliecina pārvadātāja pielaidi komercpārvadājumiem, numurs, derīguma termiņš un institūcija, kas to izdevusi</h3>
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. </textarea>
+</div>
+<h3>Plānotie pārvadājamo bīstamo atkritumu veidi un apjoms kalendāra gadā</h3>
+(Atbilstoši normatīvajiem aktiem par atkritumu klasifikatoru un īpašībām, kas padara atkritumus bīstamus)
+<div class="pt-3 pb-2">
+<button type="submit" id="" value="" class="btn btn-success">
+Pievienot</button>
+</div>
+<div id="atkritumu-parvadasana-table"></div>
+<script src="table-data/atkritumu-parvadasana.js?v=202209280758"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="dokumenti">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-dokumenti" aria-expanded="false" aria-controls="id-dokumenti">
+Dokumenti
+</button>
+</h2>
+<div id="id-dokumenti" class="accordion-collapse collapse " aria-labelledby="heading-dokumenti">
+<div class="accordion-body">
+<button type="button" class="btn btn-success" id="abc">
+<label for="file_abc">
+Pievieno datnes </label>
+<input type="file" id="file_abc" style="display:none;">
+</button>
+<button type="submit" id="" value="" class="btn btn-success">
+Pievieno datnes saiti</button>
+<hr>
+<div id="dokumenti-table"></div>
+<script src="table-data/dokumenti.js?v=202209291354"></script>
+</div>
+</div>
+</div>
+</div>
+<div class="card mt-3 mb-3">
+<div class="card-body pt-1">
+<div class="row">
+<div class="col-12">
+<h3>Apliecinājums</h3>
+</div>
+<div class="col-md-3">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="a" name="">
+<label class="form-check-label" for="a">Apliecinu, ka ir veikta valsts nodevas samaksa</label>
+</div>
+</div>
+<div class="col">
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="b" name="">
+<label class="form-check-label" for="b">Apliecinu, ka atļaujas iesniegumā sniegtā informācija ir patiesa un precīza</label>
+</div>
+</div>
+<div class="col-12">
+<h3>Apmaksa</h3>
+</div>
+<div class="col-md-3">
+<div class="form-element">
+<label for=""> Maksāšanas veids</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Samaksāts ar pārskaitījumu</option>
+<option value="a" selected="">Maksāt tiešsaistē</option>
+</select>
+</div>
+</div>
+<div class="col-12 pt-3">
+<button type="submit" id="" value="mm" class="btn btn-primary" value="mm">
+Veikt apmaksu</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+Valsts Vides Dienests, 2022<br>
+Tālrunis: <a href="tel:+37167084200">+371 67084200</a>, E-pasts: <a href="cdn-cgi/l/email-protection.html#6e0f1a0c0f021d1a1d2e18180a40090118400218"><span class="__cf_email__" data-cfemail="1d7c697f7c716e696e5d6b6b79337a726b33716b">[email&#160;protected]</span></a>
+</div>
+<div class="modal palidziba  fade right" tabindex="-1" id="palidziba">
+<div class="modal-dialog modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Palīdzība</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<h2>Iesniegums atkritumu atļaujas saņemšanai</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum cursus nulla, quis pulvinar libero dignissim et. Nulla facilisi. Integer nisl mi, molestie a ipsum ut, interdum consequat nibh. Maecenas lobortis massa sit amet velit feugiat, eget posuere tortor scelerisque. Maecenas ornare lobortis ligula at dapibus. Aliquam nisl nisl, malesuada ac mattis ut, facilisis placerat turpis. Cras leo felis, facilisis eget viverra ac, hendrerit eu felis. Vivamus a erat ullamcorper, luctus mi sit amet, sollicitudin dolor. Suspendisse porta cursus nisl eu pretium. Praesent sit amet ipsum magna.</p>
+<h3>Palīdzības video</h3>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/scripts.js?v=202210121758"></script>
+</body>
+</html>

@@ -1,0 +1,542 @@
+﻿ 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VVD sagataves</title>
+<link href="npm/bootstrap%405.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="css/tabulator.css" rel="stylesheet">
+<script type="text/javascript" src="js/tabulator.js"></script>
+<link href="css/style.css?v=202212141724" rel="stylesheet">
+<script src="npm/%40popperjs/core%402.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="npm/bootstrap%405.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="npm/select2%404.0.13/dist/js/select2.full.min.js"></script>
+<script src="tiny-mce/tinymce.min.js" referrerpolicy="origin"></script>
+<script type="text/javascript" src="sheetjs/xlsx.full.min.js"></script>
+</head>
+<body>
+<div class="menu">
+<div class="logo">
+<a href="index.htm">
+<img src="images/logo.png">
+</a>
+</div>
+<ul class="mainmenu">
+<li>
+<a href="#">
+<i class="fa-solid fa-file-signature"></i>
+Iesniegumi </a>
+<ul class="submenu">
+<li>
+<a href="#">
+Atkritumu atļauja </a>
+</li>
+<li>
+<a href="#">
+A un B kategorijas piesārņojošo darbību atļauja </a>
+</li>
+<li>
+<a href="#">
+C kategorijas piesārņojošo darbību reģistrācija/atcelšana </a>
+</li>
+<li>
+<a href="#">
+Siltumnīcefekta gāzu emisijas atļauja </a>
+</li>
+<li>
+<a href="#">
+Tehniskie noteikumu izsniegšana, grozījumi, anulēšana </a>
+</li>
+<li>
+<a href="#">
+Licenču darbībām ar aukstuma aģentiem saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Ūdens resursu lietošanas atļaujas saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Melno un krāsaino metālu licenču saņemšanai </a>
+</li>
+<li>
+<a href="#">
+Paaugstināta organisko šķīdinātāju saturušu produktu tirdzniecības licence </a>
+</li>
+<li>
+<a href="#">
+Atkritumu tirgotāju un atkritumu apsaimniekošanas starpnieku reģistrācija </a>
+</li>
+<li>
+<a href="#">
+Ietekmes uz vidi sākotnējais izvērtējums </a>
+</li>
+<li>
+<a href="#">
+Izlietotā iepakojuma un vienreiz lietojamo galda trauku un piederumu apsaimniekošanas sistēma </a>
+</li>
+<li>
+<a href="#">
+Videi kaitīgu preču atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Elektrisko un elektronisko iekārtu atkritumu sistēma </a>
+</li>
+<li>
+<a href="#">
+Nolietotu transportlīdzekļu sistēma </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-award"></i>
+Atļaujas </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-table-list"></i>
+Reģistri </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-list-check"></i>
+Pārskati </a>
+<ul class="submenu">
+<li>
+<a href="#">
+RAS - IP pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - VKP pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - EEI pārskats </a>
+</li>
+<li>
+<a href="#">
+RAS - NTL pārskats </a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-file-invoice"></i>
+Licences </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-table-cells"></i>
+Klasifikatori </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-check-to-slot"></i>
+Kontrole </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-user-group"></i>
+Klienti </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-euro-sign"></i>
+Maksājumi </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-folder-open"></i>
+Dokumenti </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-file-circle-check"></i>
+Atskaites </a>
+</li>
+<li>
+<a href="#">
+<i class="fa-solid fa-gear"></i>
+Uzstādījumi </a>
+</li>
+</ul>
+<div class="collapse-menu">
+<i class="fa-solid fa-circle-chevron-left"></i> Sakļaut</div>
+</div>
+<div class="wrapper">
+<div class="header d-flex align-items-center">
+<div class="me-auto d-flex  align-items-center">
+<h1>KLIENTU VADĪBAS UN UZRAUDZĪBAS SISTĒMA</h1>
+</div>
+<div class="right-menu  d-flex">
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Meklēt"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Sarakste"><i class="fa-solid fa-comment"></i></a></div>
+<div class="me-3"><a href="#" class="btn btn-primary-outline" data-bs-target="#palidziba" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Palīdzība" data-toggle="modal" data-target="#palidziba"><i class="fa-solid fa-circle-question"></i></a></div>
+<div class="dropdown">
+<button class="btn btn-primary-outline dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="fa-solid fa-user"></i>
+Jānis Bērziņš
+</button>
+<ul class="dropdown-menu dropdown-menu-end">
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i> Profils</a></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-building-user"></i> Mani uzņēmumi</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Iziet</a></li>
+</ul>
+</div>
+</div>
+</div>
+<ul class="tab-list d-flex flex-wrap">
+<li class="active">
+<a href="index-24.htm?s=b&p=atkritumu-atlaujas-iesniegums"><i class="fa-solid fa-file-signature"></i> Atkritumu atļaujas iesniegums<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li>
+<a href="index-25.htm?s=b&p=kontroles-zinojums"><i class="fa-solid fa-check-to-slot"></i> Kontroles ziņojums<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li>
+<a href="index-26.htm?s=b&p=ras-parskats"><i class="fa-solid fa-list-check"></i> RAS - IP pārskats, #123<i class="fa-solid fa-xmark close"></i></a>
+</li>
+<li class="close-all">
+<a href="index-26.htm?s=b&p=ras-parskats"><i class="fa-solid fa-xmark close"></i></a>
+</li>
+</ul>
+<hr>
+<div class="tools">
+<div class="row">
+<div class="col-auto">
+<button type="submit" id="" value="" class="btn btn-primary">
+Saglabāt</button>
+</div>
+</div>
+</div>
+<div class="card mt-3 mb-3">
+<div class="card-body pt-1">
+<div class="row">
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">AA#ID</label> <div>123</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Iesniegšanas datums</label>
+<div>12.12.2022</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element">
+<label for="">Statuss</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Statuss A</option>
+<option value="a">Statuss B</option>
+<option value="b">Statuss C</option>
+</select>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element">
+<label for="">Nodevas samaksāšanas datums</label>
+<input type="date" class="form-control" id="" name="" placeholder="">
+</div>
+</div>
+<div class="col-12">
+<h3>Operators</h3>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Nosaukums</label> <div>EKO OSTA, SIA</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for="">Kontaktpersona</label> <div>Jānis Bērziņš</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-element">
+<label for="">Struktūrvienība</label>
+<select class="form-select" name="">
+<option>Izvēlies</option>
+<option value="m">Nosaukums 1</option>
+<option value="a">Nosaukums 2</option>
+<option value="b">Nosaukums 3</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<h3>Iesnieguma informācija</h3>
+</div>
+<div class="col-md-3">
+<div class="form-element disabled">
+<label for=""> Iesnieguma iesniegšana siemesls</label> <div>Iesniegums jaunas atkritumu atļaujas saņemšanai</div>
+</div>
+</div>
+<div class="col-md-5">
+<div class="form-element disabled">
+<label for=""> Atkritumu apsaimniekošanas veids</label> <div>Atkritumu savākšanas, pārvadāšanas, pārkraušanas, šķirošanas, uzglabāšanas atļauja</div>
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element">
+<label for="">Darbības uzsākšana</label>
+<input type="date" class="form-control" id="" name="" placeholder="">
+</div>
+</div>
+<div class="col-md-2">
+<div class="form-element">
+<label for="">Darbības termiņš</label>
+<input type="date" class="form-control" id="" name="" placeholder="">
+</div>
+</div>
+<div class="col-12">
+<h4>Atkritumu apsaimniekošanas pieteiktās darbības</h4>
+</div>
+<div class="col-auto">
+<div class="form-element disabled">
+<div><i class="fa-solid fa-check"></i> Atkritumu pārkraušanai un uzglabāšanai</div>
+</div>
+</div>
+<div class="col-auto">
+<div class="form-element disabled">
+<div><i class="fa-solid fa-check"></i> Atkritumu pārvadāšanai</div>
+</div>
+</div>
+<div class="col-auto">
+<div class="form-element disabled">
+<div><i class="fa-solid fa-check"></i> Atkritumu pārkraušanai un uzglabāšanai</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-element disabled">
+<div><i class="fa-solid fa-tag"></i> Atzīme par reģistrāciju atkritumu pārvadājumu uzskaites sistēmā</div>
+</div>
+</div>
+<div class="col-12">
+<h3>Finanšu nodrošinājums</h3>
+</div>
+<div class="col-md-6">
+<div class="form-element">
+<label for="">Esošie nodrošinājumi</label>
+<div class="input-group">
+<input class="form-control datalist" list="_options" name="Esošie nodrošinājumi" id="exampleDataList" placeholder="Izvēlies">
+<datalist id="_options">
+<option data-value="m" value="50 000 EUR">
+<option data-value="a" value="100 000 EUR">
+</option></datalist>
+<button class="btn btn-primary" type="button" id="button-addon2">Pievienot jaunu</button>
+</div>
+</div>
+</div>
+<div class="col-12">
+<h4>Plānotie pasākumi</h4>
+</div>
+<div class="col-md-12">
+<div class="form-element disabled">
+<label for="">Plānotie pasākumi nodarbināto drošības un veselības aizsardzībā</label> <div></div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-element disabled">
+<label for="">Darbinieku kvalifikācija un tās paaugstināšanas pasākumi</label> <div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion accordion-flush" id="accordion-atkritumu-atlaujas-iesniegums">
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-savaksana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-savaksana" aria-expanded="false" aria-controls="id-atkritumu-savaksana">
+Savākšana
+</button>
+</h2>
+<div id="id-atkritumu-savaksana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-savaksana">
+<div class="accordion-body">
+<div class="form-element disabled ">
+<label for="">Plānotais atkritumu savākšanas sistēmas veids</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Atkritumu savākšanā izmantojamo spec.transp.</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Apraksts par tehniskajām iespējām veikt konteineru apkopi</label> <div>Nav</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Sadzīves atkritumu dalītās savākšanas punktu</label> <div>Nav</div>
+</div>
+<hr>
+<div id="atkritumu-savaksana-table"></div>
+<script src="table-data/atkritumu-savaksana.js?v=202209280720"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-skirosana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-skirosana" aria-expanded="false" aria-controls="id-atkritumu-skirosana">
+Sķirošana
+</button>
+</h2>
+<div id="id-atkritumu-skirosana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-skirosana">
+<div class="accordion-body">
+<div class="form-element disabled ">
+<label for="">Atkritumu šķirošanā izmantoto tehnisko paņēmienu un aprīkojuma apraksts</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Atkritumu šķirošanas centru un staciju apraksts</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Plānotie šķirojamo atkritumu veidi un apjoms (tonnas) kalendāra gadā</label> <div>Nav</div>
+</div>
+<hr>
+<div id="atkritumu-skirosana-table"></div>
+<script src="table-data/atkritumu-skirosana.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-uzglabasana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-uzglabasana" aria-expanded="false" aria-controls="id-atkritumu-uzglabasana">
+Uzglabāšana
+</button>
+</h2>
+<div id="id-atkritumu-uzglabasana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-uzglabasana">
+<div class="accordion-body">
+<div class="form-element disabled ">
+<label for="">Atkritumu uzglabāšanas vietu raksturojums un adreses</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Atkritumu uzglabāšanai izmantotā aprīkojuma raksturojums</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<hr>
+<div id="atkritumu-uzglabasana-table"></div>
+<script src="table-data/atkritumu-uzglabasana.js?v=202209151658"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-parkrausana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-parkrausana" aria-expanded="false" aria-controls="id-atkritumu-parkrausana">
+Pārkraušana
+</button>
+</h2>
+<div id="id-atkritumu-parkrausana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-parkrausana">
+<div class="accordion-body">
+<div class="form-element disabled ">
+<label for="">Apraksts par atkritumu pārkraušanā izmantoto tehniku, iekārtām un inventāru (katrai pārkraušanas vietai)</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Atkritumu pārkraušanas centru vai staciju apraksts, raksturojot to atbilstību normatīvajos aktos</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<hr>
+<div id="atkritumu-parkrausana-table"></div>
+<script src="table-data/atkritumu-parkrausana.js?v=202209151519"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="atkritumu-parvadasana">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-atkritumu-parvadasana" aria-expanded="false" aria-controls="id-atkritumu-parvadasana">
+Pārvadāšana
+</button>
+</h2>
+<div id="id-atkritumu-parvadasana" class="accordion-collapse collapse " aria-labelledby="heading-atkritumu-parvadasana">
+<div class="accordion-body">
+<div class="form-element disabled ">
+<label for="">Ja tiek veikts pašpārvadājums – pašpārvadājuma sertifikāta numurs, derīguma termiņš, institūcija, kas to izdevusi</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Ja tiek veikts komercpārvadājums ar autotransporta līdzekli – dokuments, kas apliecina pārvadātāja pielaidi komercpārvadājumiem, numurs, derīguma termiņš un institūcija, kas to izdevusi</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. Pellentesque ac tristique est, ut venenatis felis. Quisque gravida pellentesque arcu, sit amet tincidunt dui posuere eget. Maecenas vitae viverra elit. Morbi dolor odio, rutrum a aliquam ut, egestas a ex. Nunc in tellus at justo sagittis iaculis. Nam nec lectus dignissim, rutrum erat accumsan, varius justo. Vestibulum consectetur ultrices turpis.</div>
+</div>
+<div class="form-element disabled ">
+<label for="">Ja atļauja nepieciešama bīstamo atkritumu pārvadāšanai</label> <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia pellentesque sem a rutrum. Sed finibus arcu nisl, non faucibus ipsum egestas nec. </div>
+</div>
+<hr>
+<div id="atkritumu-parvadasana-table"></div>
+<script src="table-data/atkritumu-parvadasana.js?v=202209280758"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="dokumenti">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-dokumenti" aria-expanded="false" aria-controls="id-dokumenti">
+Dokumenti
+</button>
+</h2>
+<div id="id-dokumenti" class="accordion-collapse collapse " aria-labelledby="heading-dokumenti">
+<div class="accordion-body">
+<button type="button" class="btn btn-success" id="abc">
+<label for="file_abc">
+Pievieno datnes </label>
+<input type="file" id="file_abc" style="display:none;">
+</button>
+<button type="submit" id="" value="" class="btn btn-success">
+Pievieno datnes saiti</button>
+<hr>
+<div id="dokumenti-table"></div>
+<script src="table-data/dokumenti.js?v=202209291354"></script>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="eksperta-novertejums">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-eksperta-novertejums" aria-expanded="false" aria-controls="id-eksperta-novertejums">
+Eksperta Novērtējums
+</button>
+</h2>
+<div id="id-eksperta-novertejums" class="accordion-collapse collapse " aria-labelledby="heading-eksperta-novertejums">
+<div class="accordion-body">
+<div class="form-element  pt-1">
+<textarea class="form-control auto-resize tiny-mce" placeholder="" id="" name=""></textarea>
+</div>
+<hr>
+<button type="button" class="" id="abc">
+<label for="file_abc">
+</label>
+<input type="file" id="file_abc" style="display:none;">
+</button>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="apmaksas-informacija">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#id-apmaksas-informacija" aria-expanded="false" aria-controls="id-apmaksas-informacija">
+Nodevas apmaksas informācija
+</button>
+</h2>
+<div id="id-apmaksas-informacija" class="accordion-collapse collapse " aria-labelledby="heading-apmaksas-informacija">
+<div class="accordion-body">
+<div id="apmaksas-informacija-table"></div>
+<script src="table-data/apmaksas-informacija.js?v=202209151657"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+Valsts Vides Dienests, 2022<br>
+Tālrunis: <a href="tel:+37167084200">+371 67084200</a>, E-pasts: <a href="cdn-cgi/l/email-protection.html#41203523202d323532013737256f262e376f2d37"><span class="__cf_email__" data-cfemail="b1d0c5d3d0ddc2c5c2f1c7c7d59fd6dec79fddc7">[email&#160;protected]</span></a>
+</div>
+<div class="modal palidziba  fade right" tabindex="-1" id="palidziba">
+<div class="modal-dialog modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Palīdzība</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<h2>Iesniegums atkritumu atļaujas saņemšanai</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum cursus nulla, quis pulvinar libero dignissim et. Nulla facilisi. Integer nisl mi, molestie a ipsum ut, interdum consequat nibh. Maecenas lobortis massa sit amet velit feugiat, eget posuere tortor scelerisque. Maecenas ornare lobortis ligula at dapibus. Aliquam nisl nisl, malesuada ac mattis ut, facilisis placerat turpis. Cras leo felis, facilisis eget viverra ac, hendrerit eu felis. Vivamus a erat ullamcorper, luctus mi sit amet, sollicitudin dolor. Suspendisse porta cursus nisl eu pretium. Praesent sit amet ipsum magna.</p>
+<h3>Palīdzības video</h3>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/scripts.js?v=202210121758"></script>
+</body>
+</html>
